@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exit">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/back"
+            android:src="@drawable/back"
+            android:tint="#000"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="设置"
+            android:textSize="30sp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

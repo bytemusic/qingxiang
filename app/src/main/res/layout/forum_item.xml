@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_1">
+
+    <TextView
+        android:id="@+id/c_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="论坛名称"
+        android:textSize="30sp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/c_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建时间"
+        android:textSize="20sp"
+        tools:ignore="DuplicateIds" />
+    <TextView
+        android:id="@+id/c_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="介绍"
+        android:textSize="20sp"
+        tools:ignore="DuplicateIds" />
+
+</LinearLayout>
